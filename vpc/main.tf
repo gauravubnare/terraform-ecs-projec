@@ -6,14 +6,14 @@ resource "aws_subnet" "Public_Subnet01" {
   cidr_block              = "10.0.1.0/24"
   map_public_ip_on_launch = true
   vpc_id                  = aws_vpc.ECS_VPC.id
-  availability_zone = "ap-south-1a"
+  availability_zone = "eu-west-2a"
 }
 
 resource "aws_subnet" "Public_Subnet02" {
   cidr_block              = "10.0.2.0/24"
   map_public_ip_on_launch = true
   vpc_id                  = aws_vpc.ECS_VPC.id
-  availability_zone = "ap-south-1b"
+  availability_zone = "eu-west-2b"
 }
 
 resource "aws_route_table" "Public_RouteTable" {

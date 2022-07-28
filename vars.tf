@@ -1,5 +1,5 @@
 variable "image_id" {
-  default = "your_account_id.dkr.ecr.ap-south-1.amazonaws.com/rolax-repo"
+  default = "your_account_id.dkr.ecr.eu-west-2.amazonaws.com/rolax-repo"
 }
 
 variable "acm_arn" {
